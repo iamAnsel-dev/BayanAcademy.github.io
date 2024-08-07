@@ -1,0 +1,16 @@
+#tower{
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    z-index: 0;
+    position:relative;
+}
+#offering{
+    height: 100px;
+    position: relative;
+    bottom: 23em;
+}
+.star{
+    max-width: 1.5em;
+}
