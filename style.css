@@ -1,16 +1,61 @@
 #tower{
-    background-image: url("./img/bg.jpg");
+    background-image: url("/img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     filter: brightness(60%);
     z-index: 0;
     position:relative;
+
 }
+
 #offering{
     height: 100px;
     position: relative;
-    bottom: 23em;
+    bottom: 22em;
 }
 .star{
     max-width: 1.5em;
+}
+
+@media (max-width: 575.98px) {
+    #offering{
+        position: static;
+    }
+    #Discover{
+        position: relative;
+        bottom: 10em;
+
+    }
+    #services{
+        height: 100vh;
+        z-index: 1;
+        color: black;
+    }
+    #services h3,h3 + p{
+        color: black;
+    }
+    .test{
+        position: relative;
+        margin-top:7em;
+        top: 100vh;
+    }
+    #location{
+        position: relative;
+        margin-top: 5em;
+        top: 100vh;
+    }
+    iframe{
+        width: 100%;
+    }
+    .info{
+        position: relative;
+        margin-top: 5em;
+        top: 100vh;
+    }
+    footer{
+        position: relative;
+        font-size: .5rem;
+        margin-top: 5em;
+        top: 100vh;
+    }
 }
