@@ -1,5 +1,5 @@
 #tower{
-    background-image: url("/img/bg.jpg");
+    background-image: url("./img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     filter: brightness(60%);
